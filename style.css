@@ -1,0 +1,93 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header>.nav>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+.header>.nav{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+a{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid ;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 4px 40px;
+    border-radius: 50px;
+}
+.btn:hover{
+    text-decoration: underline;
+    color: rgb(170, 168, 168);
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    width: 18%;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(123, 123, 253);
+}
+.banner{
+    background-image: url(img/image\ 152.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+button{
+    width: 200px;
+    background-color: rgba(10, 132, 255, 1);
+    height: 50px;
+    border-radius: 50px;
+}
+.banner>.right{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: sans-serif;
+}
+p{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.right{
+    background-image: url(imges/_x31_.png);
+    height: 500px;
+    width: 500px;
+}
+.content{
+    display: flex;
+}
